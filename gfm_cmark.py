@@ -46,8 +46,9 @@ __author_email__ = 'jh@web.de'
 
 def setup():
     """Set up runtime environment."""
-    sys.stdout = codecs.getwriter('utf8')(sys.stdout)
-    sys.stderr = codecs.getwriter('utf8')(sys.stderr)
+    if sys.version_info < (3,):
+        sys.stdout = codecs.getwriter('utf8')(sys.stdout)
+        sys.stderr = codecs.getwriter('utf8')(sys.stderr)
     logging.basicConfig(level=logging.INFO)
 
 
