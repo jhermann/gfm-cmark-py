@@ -1,0 +1,18 @@
+#
+# Development requirements
+#
+
+pip>=8
+invoke==0.12.2
+#rituals==0.3.0
+-e git+https://github.com/jhermann/rituals.git#egg=rituals
+
+pylint==1.5.4
+bpython==0.15
+yolk3k==0.8.8
+
+twine==1.6.5
+
+# -r test-requirements.txt
+-r requirements.txt
+-e .
