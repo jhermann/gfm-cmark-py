@@ -60,7 +60,14 @@ Building the Debian Package
 ```sh
 version=0.27.1
 curl -sLSo "cmark-gfm_$version.orig.tar.gz" "https://github.com/github/cmark/archive/$version.tar.gz"
-dh_make -f "cmark-gfm_$version.orig.tar.gz" --packagename cmark-gfm_$version -c bsd --multi
+cd cmark-gfm
+
+# The "debian/" directorxy wa sinitially made using…
+#   dh_make -f "cmark-gfm_$version.orig.tar.gz" --packagename cmark-gfm_$version -c bsd --multi
+dpkg-buildpackage -uc -us
+
+dpkg-deb -I ../cmark-gfm_$version-*_amd64.deb
+dpkg-deb -I ../libcmark-gfm_$version-*_amd64.deb
 
 
 ```
