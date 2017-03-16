@@ -57,8 +57,6 @@ to make the necessary basic commands available on *Linux*, *Mac OS X*, and *Wind
 Building the Debian Package
 ---------------------------
 
-.. code-block:: bash
-
     version=0.27.1
     curl -sLSo "cmark-gfm_$version.orig.tar.gz" "https://github.com/github/cmark/archive/$version.tar.gz"
     cd cmark-gfm
