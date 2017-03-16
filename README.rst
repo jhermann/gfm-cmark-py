@@ -6,7 +6,8 @@ gfm-cmark-py
 
 A Python wrapper for GitHub's fork of ``cmark``, supporting `GFM`_
 extensions. ``cmark`` is a *CommonMark* parsing and rendering library
-written in C, and the project also includes Debian packaging for it.
+written in C. This project also includes Debian packaging for it, 
+to simplify deployment to platforms using APT.
 
 **THIS IS IN ALPHA STATUS!**
 
