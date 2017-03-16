@@ -1,0 +1,9 @@
+# Watch control file for uscan
+# Run the "uscan" command to check for upstream updates and more.
+# See uscan(1) for format
+
+# Compulsory line, this is a version 3 file
+version=3
+
+# <Webpage URL> <string match>
+https://github.com/github/cmark/releases/ cmark/archive/(.+)\.tar\.gz

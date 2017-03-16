@@ -54,6 +54,18 @@ You might also need to follow some
 to make the necessary basic commands available on *Linux*, *Mac OS X*, and *Windows*.
 
 
+Building the Debian Package
+---------------------------
+
+```sh
+version=0.27.1
+curl -sLSo "cmark-gfm_$version.orig.tar.gz" "https://github.com/github/cmark/archive/$version.tar.gz"
+dh_make -f "cmark-gfm_$version.orig.tar.gz" --packagename cmark-gfm_$version -c bsd --multi
+
+
+```
+
+
 Related Projects
 ----------------
 

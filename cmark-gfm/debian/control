@@ -1,0 +1,21 @@
+Source: cmark-gfm
+Section: libs
+Maintainer: Juergen Hermann <jh@web.de>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: https://github.com/github/cmark
+#Vcs-Git: https://github.com/github/cmark.git
+#Vcs-Browser: https://github.com/github/cmark
+
+Package: cmark-gfm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: cmark-gfm command line tool
+
+#Package: cmark-gfm-doc
+#Architecture: all
+#Description: documentation for cmark-gfm
+
+Package: libcmark-gfm
+Architecture: any
+Description: cmark-gfm library
