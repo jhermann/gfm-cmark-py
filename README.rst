@@ -4,9 +4,9 @@ gfm-cmark-py
  |Travis CI|  |Coveralls|  |GitHub Issues|  |License|
  |Development Status|  |Latest Version|  |Download format|  |Downloads|
 
-A Python wrapper for GitHub's fork of ``cmark``, supporting `GFM`_
+A Python wrapper for `GitHub's fork of cmark`_, supporting `GFM`_
 extensions. ``cmark`` is a *CommonMark* parsing and rendering library
-written in C. This project also includes Debian packaging for it, 
+written in C. This project also includes Debian packaging for it,
 to simplify deployment to platforms using APT.
 
 **THIS IS IN ALPHA STATUS!**
@@ -67,6 +67,7 @@ Related Projects
 
 .. _GFM: https://github.github.com/gfm/
 .. _github/cmark: https://github.com/github/cmark
+.. _`GitHub's fork of cmark`: https://github.com/github/cmark
 .. _jgm/cmark: https://github.com/jgm/cmark
 .. _rtfd/CommonMark-py: https://github.com/rtfd/CommonMark-py
 .. _cmark 0.26.1-1 source package: https://launchpad.net/ubuntu/+source/cmark/0.26.1-1
