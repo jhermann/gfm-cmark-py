@@ -7,7 +7,7 @@ invoke==0.14.0
 #rituals==0.3.0
 -e git+https://github.com/jhermann/rituals.git#egg=rituals
 
-pylint==1.6.5
+pylint==4.0.9
 bpython==0.16
 yolk3k==0.9
 
